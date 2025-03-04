@@ -1,5 +1,8 @@
 #include <iostream>
 
+// TO get the binary number you need to devide by 2 and get the remainder then once you have all 8 number you can reverse the list and print to get the binary numebr
+
+
 void DecToBin(int convNum) {
     int newNum = 0;   // This will store the binary number
     int place = 1;    // Place value, used for building the binary number in reverse
@@ -21,4 +24,5 @@ int main() {
     DecToBin(convNum);  // Call the function with 75
 
     return 0;
+    
 }
